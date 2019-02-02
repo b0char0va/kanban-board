@@ -1,0 +1,58 @@
+body {
+    font-size: 14px;
+}
+
+.row {
+    margin: 12.5px;
+}
+
+.col-md-3{
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+}
+
+h4 {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.2em;
+    color: white;
+}
+
+#title0 h4{
+    background-color: #8E6E95;
+}
+#title1 h4{
+    background-color: #39A59C;
+}
+#title2 h4{
+    background-color: #344759;
+}
+#title3 h4{
+    background-color: #E8741E
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    height: 40px;
+    background-color: #ccc;
+    padding: 4px;
+    margin-bottom: 2px;
+}
+
+#add-card {
+    color: #000;
+    font-size: 0.8em;
+}
+
+li a {
+    color: #000;
+}
+
+.next {
+    float: right;
+}

@@ -1,0 +1,14 @@
+[
+  {"name": "Willie",
+    "cards": ["buy eggs", "go swimming"]
+  },
+  {"name": "Thomas",
+    "cards": ["buy eggs", "go swimming"]
+  },
+  {"name": "George",
+    "cards": ["buy eggs", "go swimming"]
+  },
+  {"name": "Tom",
+    "cards": ["buy eggs", "go swimming"]
+  }
+]

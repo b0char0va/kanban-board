@@ -1,10 +1,12 @@
 import React from 'react';
+import Next from './Next.jsx';
+import Previous from './Previous.jsx';
 
-const Card = ({card, id, moveCard}) => (
-  <li id={id}>
-    <a href="#" className="previous" onClick={moveCard}> &lt; </a>
+const Card = ({ card, cardID, boardID, moveCard }) => (
+  <li id={cardID}>
+    {boardID > 0 ? <Previous moveCard={moveCard} cardID={cardID} boardID={boardID} /> : null}
     {card}
-    <a href="#" className="next" onClick={moveCard}> &gt; </a>
+    {boardID < 3 ? <Next moveCard={moveCard} cardID={cardID} boardID={boardID} /> : null}
   </li>
 );
 
